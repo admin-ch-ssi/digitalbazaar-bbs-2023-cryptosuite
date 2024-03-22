@@ -6,15 +6,6 @@
 
 > BBS 2023 Data Integrity Cryptosuite for use with jsonld-signatures.
 
-## Table of Contents
-
-- [Background](#background)
-- [Security](#security)
-- [Install](#install)
-- [Usage](#usage)
-- [Contribute](#contribute)
-- [Commercial Support](#commercial-support)
-- [License](#license)
 
 ## Background
 
@@ -24,20 +15,7 @@ See also related specs:
 
 * [Verifiable Credential Data Integrity](https://w3c.github.io/vc-data-integrity/)
 
-## Security
-
-TBD
-
 ## Install
-
-- Browsers and Node.js 18+ are supported.
-
-To install from NPM:
-
-```
-npm install @digitalbazaar/bbs-2023-cryptosuite
-```
-
 To install locally (for development):
 
 ```
@@ -48,26 +26,7 @@ npm install
 
 ## Usage
 
-The following code snippet provides a complete example of digitally signing
-a verifiable credential using this library:
-
-```javascript
-// ...
-```
-
-## Contribute
-
-See [the contribute file](https://github.com/digitalbazaar/bedrock/blob/master/CONTRIBUTING.md)!
-
-PRs accepted.
-
-If editing the Readme, please conform to the
-[standard-readme](https://github.com/RichardLitt/standard-readme) specification.
-
-## Commercial Support
-
-Commercial support for this library is available upon request from
-Digital Bazaar: support@digitalbazaar.com
+See sample script in bbs-sample.js which has been created based on [ecsdsa-sd-2023-cryptosuite example](https://github.com/digitalbazaar/ecdsa-sd-2023-cryptosuite/tree/main)
 
 ## License
 
